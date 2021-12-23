@@ -9,9 +9,9 @@ I wrote a BASIC engine to display text in this manner and then needed to flesh i
 
 I then converted the BASIC text file ( r1.txt ... not included in the repo ) to a fully tokenized Commodore 64 BASIC 2.0 program with the following commands (on MacOS):
 
-   cat r1.txt > RetroFair2020.bas
-   awk -f proc.awk retro.txt >> RetroFair2020.bas
-   ../tools/petcat -w2 -o RetroFair2020 RetroFair2020.bas
+    cat r1.txt > RetroFair2020.bas
+    awk -f proc.awk retro.txt >> RetroFair2020.bas
+    ../tools/petcat -w2 -o RetroFair2020 RetroFair2020.bas
 
 The file RetroFair2020 was then loadable into the VICE C64 emulator.  If you run the tokenized form, hit ENTER to begin the display.
 
